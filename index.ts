@@ -7,7 +7,7 @@ const numberArray = generateNumberArray();
 // Salva o vetor numérico no arquivo "array.txt" para fins de análise
 saveArray(numberArray);
 
-// Cronometra a ordenar o vetor
+// Cronometra a ordenação o vetor
 console.time('Quick sort');
 numberArray.sort();
 console.timeEnd('Quick sort');
